@@ -1,0 +1,98 @@
+/*
+*Header-section
+*/
+
+#header-img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: relative;
+  margin-top: -11px;
+  top: 0;
+  left: auto;
+}
+
+/*
+*navbar
+*/
+
+#nav-bar {
+  padding-top: 0px;
+  display: block;
+  top: 0;
+  /* position: fixed; */
+}
+
+@media screen and (min-width: 990px) {
+  #sidenav-link {
+    display: none;
+  }
+}
+
+/*
+*hero-section
+*/
+
+#header-bg {
+  background: url('../image/header-bg.jpg');
+  background-size: cover;
+  padding-bottom: 550px;
+  /* padding-top: 50px; */
+}
+
+@media screen and (min-width: 360px) {
+  #header-bg {
+    width: 155%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  #header-bg {
+    padding-top: 500px;
+  }
+}
+
+#form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#email {
+
+}
+
+#submit {
+  color: white;
+}
+
+/*
+*Classes-section
+*/
+
+#para, #moto {
+  text-align: center;
+  color: white;
+}
+
+#classes-title {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/*
+*products-section
+*/
+
+#info {
+  padding-bottom: 10px;
+  padding-left: 22px;
+}
+
+#iPhone-img {
+    width: 100%;
+    max-height: 100%;
+    /* padding-right: 100px; */
+}
